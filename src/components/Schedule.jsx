@@ -24,7 +24,7 @@ export default function Schedule() {
         </div>
         {scheduleData.map((thisSchedule, index)=>{
             return(
-                <ScheduleList schedule={thisSchedule} />
+                <ScheduleList schedule={thisSchedule} key={index}/>
             )
         })
 
